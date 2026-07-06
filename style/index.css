@@ -1,9 +1,13 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
+
+  background-color: #ececec;
 }
 
 :root {
@@ -46,6 +50,10 @@ body {
   --space-500:2.5rem;     /*40px*/
 }
 
+img {
+  width: 100%;
+}
+
 p {
   font-weight: var(--fw-r);
   font-size: var(--fs-4);
@@ -81,8 +89,6 @@ p {
 .card-1 {
   background: var(--purple-500);
 
-  text-align: center;
-
   padding: var(--space-500) var(--space-400);
 }
 
@@ -100,4 +106,85 @@ h1 {
 
 .p-1 {
   color: var(--white);
+}
+
+
+
+
+/* SECTION 2 */
+
+.card-2 {
+  background: var(--white);
+
+  padding: var(--space-200);
+}
+
+
+
+
+/* SECTION 3 */
+
+.card-3 {
+  background: var(--yellow-500);
+
+  padding: var(--space-200);
+}
+
+
+
+
+/* SECTION 4 */
+
+.card-4 {
+  background: var(--purple-100);
+
+  padding: var(--space-400);
+}
+
+
+
+
+/* SECTION 5 */
+
+.card-5 {
+  background: var(--purple-500);
+
+  padding: var(--space-300);
+}
+
+.h2-card5 {
+  color: var(--white);
+}
+
+
+
+
+/* SECTION 6 */
+
+.card-6 {
+  background: var(--white);
+
+  padding: var(--space-300);
+}
+
+
+
+
+/* SECTION 7 */
+
+.card-7 {
+  background: var(--yellow-100);
+
+  padding: var(--space-400);
+}
+
+
+
+
+/* SECTION 8 */
+
+.card-8 {
+  background: var(--yellow-500);
+
+  padding: var(--space-300);
 }

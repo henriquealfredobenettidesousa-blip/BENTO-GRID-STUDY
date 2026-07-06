@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+:root {
+
+  /* colors */
+
+  --purple-100: #DBD1FC;
+  --purple-500: #7551DC;
+  --yellow-100: #F9EEE2;
+  --yellow-500: #FFCC6A;
+  --white: #FFFFFF;
+  --black: #121212;
+
+  /* typography */
+
+  --fs-1: 3.8rem;
+  --fs-2: 2.5rem;
+  --fs-3: 2rem;
+  --fs-4: 1.1rem;
+
+  --fw-r: 400;
+  --fw-m: 500;
+
+  --lh-1: 93.5%;
+  --lh-2: 90%;
+  --lh-3: 87.5%;
+  --lh-4: 111%;
+
+  --ls-1: -0.19rem;
+  --ls-2: -0.12rem;
+  --ls-3: -0.12rem;
+
+  /* SPACING */
+
+  --space-0:0;
+  --space-100:.5rem;   
+  --space-200:1rem;       
+  --space-300:1.5rem;     
+  --space-400:2rem;       
+  --space-600:3rem;   
+  --space-1200:6rem;
+}

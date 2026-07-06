@@ -48,6 +48,14 @@ body {
   --space-300:1.5rem;     /*24px*/
   --space-400:2rem;       /*32px*/
   --space-500:2.5rem;     /*40px*/
+
+  /* BORDER */
+
+  --br: 0.6rem;
+}
+
+section {
+  border-radius: var(--br);
 }
 
 img {
@@ -79,6 +87,12 @@ p {
   font-size: var(--fs-3);
   letter-spacing: var(--ls-3);
   line-height: var(--lh-3);
+}
+
+/* MOBILE GRID */
+
+.container-grid {
+  
 }
 
 

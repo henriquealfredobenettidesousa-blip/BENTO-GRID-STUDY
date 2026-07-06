@@ -7,7 +7,9 @@
 body {
   font-family: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
 
-  background-color: #ececec;
+  background-color: #f3f3f3;
+
+  padding: 2rem 1rem;
 }
 
 :root {
@@ -92,7 +94,8 @@ p {
 /* MOBILE GRID */
 
 .container-grid {
-  
+  display: grid;
+  gap: var(--space-400);
 }
 
 
@@ -104,6 +107,12 @@ p {
   background: var(--purple-500);
 
   padding: var(--space-500) var(--space-400);
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: var(--space-300);
 }
 
 h1 {
@@ -122,6 +131,10 @@ h1 {
   color: var(--white);
 }
 
+.card-1 img {
+  max-width: 192px;
+}
+
 
 
 
@@ -131,6 +144,17 @@ h1 {
   background: var(--white);
 
   padding: var(--space-200);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-200);
+}
+
+.card-2 img {
+  max-width: 316px;
+
+  border-radius: ;
 }
 
 
@@ -142,6 +166,14 @@ h1 {
   background: var(--yellow-500);
 
   padding: var(--space-200);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-200);
+}
+
+.card-3 img {
+  max-width: 208px;
 }
 
 
@@ -153,6 +185,16 @@ h1 {
   background: var(--purple-100);
 
   padding: var(--space-400);
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: var(--space-300);
+}
+
+.card-4 img {
+  max-width: 308px;
 }
 
 
@@ -164,10 +206,20 @@ h1 {
   background: var(--purple-500);
 
   padding: var(--space-300);
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: var(--space-500);
 }
 
 .h2-card5 {
   color: var(--white);
+}
+
+.card-5 img {
+  max-width: 228px;
 }
 
 
@@ -179,8 +231,19 @@ h1 {
   background: var(--white);
 
   padding: var(--space-300);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-300);
 }
 
+.card-6 img {
+  max-width: 179px;
+}
+
+.card-6 h2 {
+  margin-bottom: 1rem;
+}
 
 
 
@@ -190,6 +253,14 @@ h1 {
   background: var(--yellow-100);
 
   padding: var(--space-400);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-300);
+}
+
+.card-7 img {
+  max-width: 190px;
 }
 
 
@@ -201,4 +272,12 @@ h1 {
   background: var(--yellow-500);
 
   padding: var(--space-300);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-300);
+}
+
+.card-8 img {
+  max-width: 220px;
 }

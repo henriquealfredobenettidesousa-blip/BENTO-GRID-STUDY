@@ -153,8 +153,6 @@ h1 {
 
 .card-2 img {
   max-width: 316px;
-
-  border-radius: ;
 }
 
 
@@ -170,10 +168,14 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: var(--space-200);
+
+  overflow: hidden;
 }
 
 .card-3 img {
   max-width: 208px;
+
+  margin-block-end: -2rem;
 }
 
 
@@ -242,7 +244,7 @@ h1 {
 }
 
 .card-6 h2 {
-  margin-bottom: 1rem;
+  margin-bottom: var(--space-200);
 }
 
 
@@ -263,6 +265,10 @@ h1 {
   max-width: 190px;
 }
 
+.span-card-7 {
+  color: var(--purple-500);
+}
+
 
 
 
@@ -281,3 +287,59 @@ h1 {
 .card-8 img {
   max-width: 220px;
 }
+
+
+
+
+@media (width >=768px) {
+  
+  .container-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-1,
+  .card-4,
+  .card-5,
+  .card-6 {
+    grid-column: span 2;
+  }
+
+  /* SECTION 2 */
+
+  .card-2 img {
+    margin-block-end: var(--space-400);
+  }
+
+  /* SECTION 4 */
+
+  .card-4 p {
+    max-width: 360px;
+  }
+
+  /* SECTION 5 */
+
+  .card-5 {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card-5 h2 {
+    max-width: 260px;
+    text-align: start;
+  }
+
+  /* SECTION 6 */
+
+  .card-6 {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-6 img {
+    height: fit-content;
+  }
+}
+
+
+
